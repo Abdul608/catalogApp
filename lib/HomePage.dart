@@ -39,53 +39,11 @@ class HomePage extends StatelessWidget {
         ),
       ),
      body: ListView.builder(
-        itemCount: CatalogModel.items.lenght,
+
           itemBuilder: (context,index){
-          return ItemWidget(item:CatalogModel.items[index],);
          }
          ),
     );
-      // Column(
-      //   mainAxisAlignment: MainAxisAlignment.center,
-      //  // crossAxisAlignment: CrossAxisAlignment.center,
-      //   children: [
-      //     Align(alignment: Alignment.center,),
-      //     Container(
-      //       height: 50,
-      //       width: 150,
-      //       decoration: BoxDecoration(
-      //         color: Colors.pink,
-      //         borderRadius: BorderRadius.circular(15),
-      //       ),
-      //       child: GestureDetector(
-      //         child: Center(child: Text('Login',style: TextStyle(fontSize: 30),)),
-      //       ),
-      //     ),
-      //     SizedBox(
-      //       height: 10,
-      //     ),
-      //     Container(
-      //       height: 50,
-      //       width: 150,
-      //       decoration: BoxDecoration(
-      //         borderRadius: BorderRadius.circular(15),
-      //         color: Colors.pink,
-      //
-      //       ),
-      //       child: GestureDetector(
-      //         child: Center(child: Text('SignUp',style: TextStyle(fontSize: 30,),)),
-      //
-      //       ),
-      //     ),
-      //   ],
-      // ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: (){
-      //     print('Button clicked');
-      //   },
-      //   child: Icon(Icons.add),
-      // ),
-
   }
 }
 
